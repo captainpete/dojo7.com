@@ -1,18 +1,17 @@
 ---
 layout: page
-title: About
+title: about
+subtitle: (the picture is a-boat)
 permalink: /about/
+feature-img: "assets/img/about.jpg"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### What is this?
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This is the tech-blog of Peter Hollows.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### What's with the name?
 
+There's no story or meaning behind dojo7, it was an available domain.
+If you come up with a cool reference get in touch ;)
 
-[jekyll-organization]: https://github.com/jekyll
