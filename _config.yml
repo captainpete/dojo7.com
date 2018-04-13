@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://dojo7.com/"
+url: "https://dojo7.com"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -69,7 +69,9 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
