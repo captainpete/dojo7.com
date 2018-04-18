@@ -102,6 +102,12 @@ li > ul, li > ol {
 ol, ul {
   list-style-position: inside;
 }
+code,
+kbd,
+pre,
+samp {
+  font-family: $font-family-code;
+}
 hr {
   border: 0;
   border-top: 1px solid $border-color;
