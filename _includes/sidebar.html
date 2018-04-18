@@ -1,0 +1,41 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">
+        Meta, Reinforcement &amp; Machine Learning experiments by Peter&nbsp;Hollows.
+      </p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.hide != true %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </nav>
+
+    <div class="sidebar-social">
+      <a href="{{ site.github }}" title="Peter Hollows on Github"><i class="fab fa-github"></i></a>
+      <a href="{{ site.linkedin }}" title="Peter Hollows on LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="{{ site.twitter }}" title="Peter Hollows on Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="{{ site.stack_exchange }}" title="Peter Hollows on Stack Exchange"><i class="fab fa-stack-exchange"></i></a>
+      <a href="{{ site.keybase }}" title="Peter Hollows on Keybase.io"><i class="fab fa-keybase"></i></a>
+      <a href="{{ site.email }}" title="Contact by email"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <div class="sidebar-legal">
+      <p>The views presented on this website are my own and not the views of my employer.</p>
+      <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    </div>
+  </div>
+</div>
+

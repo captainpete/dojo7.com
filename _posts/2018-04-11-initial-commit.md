@@ -23,5 +23,3 @@ git commit -m "initial commit" --allow-empty
 
 See the result in the initial commit of the [source powering this website](https://github.com/captainpete/dojo7.com/commit/f9556cd4d19c03cea8b51fde18a390038f14e225).
 
-Now, it's true you can address the above points with a new git root. It's a matter of aesthetics.
-
