@@ -67,7 +67,7 @@ This seems like a promising approach for getting a machine to learn to teach its
 
 New abstractions in machine learning theory have led to a more succinct language for programming machines to perform tasks previously too complex for definition.
 
-For simple tasks, like generating Binomial numbers, expressing directly is still the most effcient approach.
+For simple tasks, like generating Bernoulli numbers, expressing directly is still the most effcient approach.
 More the more complex tasks previously out of reach, we can now express a functional outcome and have the computer fill in the gaps.
 
 Refinforcement learning is still a blunt and inefficient instrument. It's very hard to get anything to work, even with extensive hyperparameter tuning and wide searches through program space. The promise of meta-refinforcement-learning is that reinforcement learning will become reliable and even easy for a practicioner.
