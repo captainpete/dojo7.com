@@ -44,7 +44,7 @@ Turing afforded an additional interesting flexibility permitted in the Imitation
 
 > _"An interesting variant on the idea of a digital computer is a 'digital computer with a random element'. These have instructions involving the throwing of a die or some equivalent electronic process; ... Sometimes such a machine is described as having free will (though I would not use this phrase myself)."_
 
-[Deep-Q-Learning](https://en.wikipedia.org/wiki/Q-learning#Deep_Q-learning) and related reinforcement learning algorithms tend to have this property which is used in exploration of policy space through random sampling.
+[Deep-Q-Learning](https://en.wikipedia.org/wiki/Q-learning#Deep_Q-learning) and related reinforcement learning algorithms tend to have this property (use of randomness, not free will) which is used in exploration of policy space through random sampling.
 [AlphaGo Zero](https://deepmind.com/blog/alphago-zero-learning-scratch/) was able to learn the game of Go from scratch using a random search through a space with a tendency to explore directions likely to improve the performance metric.
 In both of these examples, and in most Reinforcement Learning, randomness is introduced to generate statistical certainty about a solution being more appropriate on average.
 
