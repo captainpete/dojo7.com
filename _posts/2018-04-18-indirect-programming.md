@@ -63,18 +63,20 @@ The program seems to have demonstrated a kind of _"power of anticipating any ana
 In the case of World Models, the machine is expressing the programming goal (what it has learned of it) as well as the program.
 This seems like a promising approach for getting a machine to learn to teach itself.
 
-## The Reward Lever
+## Problems with the Reward Signal
 
 New abstractions in machine learning theory have led to a more succinct language for programming machines to perform tasks previously too complex for definition.
 
 For simple tasks, like generating Bernoulli numbers, expressing directly is still the most effcient approach.
-More the more complex tasks previously out of reach, we can now express a functional outcome and have the computer fill in the gaps.
+For the more complex tasks, those previously out of reach, we can now express an outcome by example and have the computer fill in the gaps.
 
-Refinforcement learning is still a blunt and inefficient instrument. It's very hard to get anything to work, even with extensive hyperparameter tuning and wide searches through program space. The promise of meta-refinforcement-learning is that reinforcement learning will become reliable and even easy for a practicioner.
+For the most difficult tasks, expression by example does not provide all necessary information, so prior understanding must be encoded through transfer learning or by modifying the loss function. In these cases, the computer is being told to fill in the gaps in specification of the problem as well as the solution -- learning what is missing in the examples, and taking instruction from the implied in addition to the explicit.
 
-Early in computing, when compilers first appeared they could take an abstract representation of human instructions and convert them to executable code. Compiler bugs were common and the languages at hand were clunky and inexpressive. In the future it appears that meta-RL algorithms may improve as compilers did, but there has been minimal progress in improving the expressibility of our tool for expression, the reward function.
+Refinforcement learning is still a blunt and inefficient instrument. It's very hard to get anything to work, even with extensive hyperparameter tuning and wide searches through program space. The promise of meta-refinforcement-learning is that reinforcement learning will become reliable and even easy for a practicioner. Though I suspect this will require a solid calculus of reward functions, especially covering implicit reward.
+
+Early in computing the first compilers could take an abstract representation of human instructions and convert them to executable code. Compiler bugs were common and the languages at hand were clunky and inexpressive. In the future it appears that meta-RL algorithms may improve as compilers did, but there has been minimal progress in improving the expressibility of our tool for expression, the reward function.
 
 Classic reward functions are one-dimensional scalar values. As a language, these have even greater problems with expressibility than early program languages. Some progress is being made in [how to define what we meant, not what we said](https://intelligence.org/files/ValueLearningProblem.pdf) using examples that indrectly describe a reward function, but the problem looks to require a new language altogether.
 
-It's a comparatively easy task to design a language for "copy value X to register A" with hard logic, it's much harder to design a language for "rescue all the kids but don't break any laws" that has any consitency.
+It's a comparatively easy task to design a language for "copy value X to register A" with hard logic, it's much harder to design a language for "rescue all the people but don't break any laws" that has any logical consitency.
 
