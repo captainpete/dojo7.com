@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.4"
-gem "jekyll-paginate", "~> 1.1"
+gem "jekyll", "~> 4.3.1"
+gem "jekyll-paginate"
 gem "jekyll-sitemap"
 
-gem "bundler", "~> 1.12"
-gem "rake", "~> 10.0"
+gem "bundler", "~> 2.3"
+gem "rake", "~> 12.3"
 
