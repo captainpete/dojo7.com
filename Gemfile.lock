@@ -34,10 +34,6 @@ GEM
       sass (~> 3.4)
     jekyll-sitemap (1.2.0)
       jekyll (~> 3.3)
-    jekyll-tidy (0.2.2)
-      htmlbeautifier
-      htmlcompressor
-      jekyll
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -71,7 +67,6 @@ DEPENDENCIES
   jekyll (~> 3.4)
   jekyll-paginate (~> 1.1)
   jekyll-sitemap
-  jekyll-tidy
   rake (~> 10.0)
 
 BUNDLED WITH
